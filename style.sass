@@ -1,0 +1,341 @@
+*
+    font-family: 'Oswald', sans-serif
+    text-decoration: none
+    
+.outer
+    width: 100%
+
+.inner
+    margin: 0 auto
+    width: 1110px    
+
+// Header
+
+.first-screen    
+    height: 740px
+    position: absolute
+    background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)),  #404149
+    background-image: url(src/Rectangle.png)
+
+    &-inner
+        padding-top: 20px
+        margin: 0 auto
+        &-logo
+            display: flex
+            justify-content: space-between
+        &-text   
+            margin-top: 130px
+            text-shadow: black 0px 2px 2px
+            color: white
+            text-align: center 
+            &-h1 
+                line-height: 104px
+                font-size: 64px
+                font-weight: 500
+            &-h5 
+                text-transform: uppercase
+                font-size: 18px
+                font-weight: 400
+           
+// Numbers
+
+.numbers
+    position: absolute
+    &-inner
+        margin: 590px auto
+        background: #F7F7F7
+        width: 1110px
+        height: 300px
+        &-grid 
+            display: flex
+            justify-content: space-around
+            &-column
+                text-align: center
+                .num
+                    padding-top: 57px
+                    margin-bottom: 25px
+                    color: #f7654a
+                    font-size: 72px
+                    font-weight: 500
+                .header
+                    margin-bottom: 10px
+                .subheader
+                    color: #999999
+
+    
+    
+// Projects
+
+.projects
+    padding-top: 900px
+    &-inner
+        margin: 90px auto 
+        &-items
+            display: flex
+            justify-content: space-between
+            &-item
+                width: 350px
+                img
+                .rectangle
+                    margin-top: 45px
+                    width: 55px
+                    height: 6px
+                    background: #F7654A
+                    margin-bottom: 15px
+                .header
+                    font-weight: 500
+                    font-size: 24px
+                    line-height: 36px
+                    font-style: normal
+                    color: #404149
+                .subheader    
+                    color: #999999
+                    line-height: 22px
+                    font-size: 16px
+    &-inner > .header
+            color: #404149
+            font-weight: 500
+            font-size: 36px
+            text-align: center
+            text-transform: uppercase
+            padding-bottom: 60px
+    
+                    
+// request
+
+.request
+    height: 181px
+    background: #F7654A  
+    &-inner
+        padding-top: 40px
+        display: flex
+        justify-content: space-between
+        &-text
+            margin-top: auto
+            .header
+                color: #FFFFFF
+                letter-spacing: 0.02em
+                line-height: 71px
+                font-size: 48px
+                font-weight: bold
+            .subheader
+                color: #FFFFFF
+                letter-spacing: 0.02em
+                line-height: 36px
+                font-size: 24px
+                font-weight: bold
+        &-button
+            margin-top: 30px
+            box-sizing: border-box
+            display: inline-flex
+            background-color: #ffffff
+            padding: 15px
+            &-logo
+            &-text
+                padding-left: 15px
+                color: black
+                letter-spacing: 0.05em
+                font-style: normal
+                font-weight: 500
+                font-size: 14px
+
+// Services
+
+.services
+    &-inner
+        &-header
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            line-height: 53px
+            text-transform: uppercase
+            color: #000000
+            text-align: center
+            margin: 66px auto
+        &-items
+            display: grid
+            grid-template-rows: 1fr 1fr 
+            grid-template-columns: 1fr 1fr 1fr
+            grid-gap: 30px
+            &-item
+                width: 350px
+                height: 250px
+                background: #F7F7F7
+                &-logo
+                    margin: 60px 145px 20px
+                &-text
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 21px
+                    line-height: 31px
+                    text-align: center
+                    letter-spacing: 0.02em
+                    color: #000000
+                    padding-bottom: 60px
+
+// Portfolio
+
+.portfolio
+    &-inner
+        display: flex 
+        flex-wrap: wrap
+
+
+// Questions
+
+.questions
+    &-inner
+        margin-top: 150px
+        margin-bottom: 150px
+        &-header
+            text-align: center
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            line-height: 53px
+            text-transform: uppercase
+            color: #000000
+        &-item
+            margin-top: 40px
+            &-logo
+                margin-right: 15px
+                display: inline
+            &-header
+                display: inline
+                font-style: normal
+                font-weight: 500
+                font-size: 24px
+                line-height: 36px
+                color: #F7654A      
+            &-text
+                margin-top: 30px
+                width: 730px
+                font-family: Open Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 22px
+                color: #999999
+
+
+// Partners
+
+.partners
+    background: #404149
+    &-inner
+        &-header
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            line-height: 53px
+            text-transform: uppercase
+            color: #FFFFFF
+            text-align: center
+            padding-top: 100px
+            padding-bottom: 60px
+        &-logos
+            display: flex
+            justify-content: space-between
+            padding-bottom: 100px
+            &-logo
+            
+// Reviews
+
+.reviews
+    &-inner
+        margin: 150px auto
+        &-header
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            line-height: 53px
+            text-transform: uppercase
+            color: #000000
+            text-align: center
+        &-items 
+            display: flex
+            justify-content: space-between
+            &-section   
+                margin-top: 60px
+                &-item
+                    padding: 30px
+                    background: #F7F7F7
+                    &-logo
+                        margin-bottom: 20px
+                    &-quote
+                        width: 290px
+                        font-family: Open Sans
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 14px
+                        line-height: 21px
+                        color: #999999
+                &-author
+                    margin-top: 30px
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 21px
+                    line-height: 31px
+                    letter-spacing: 0.02em
+                    span
+                        color: #F7654A           
+
+
+// Contacts
+
+.contacts
+    &-inner
+        margin: 150px auto
+        &-header
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            line-height: 53px
+            text-transform: uppercase
+            color: #000000
+            text-align: center
+            margin-bottom: 60px
+        &-items
+            display: flex
+            justify-content: space-between
+            &-item
+                &-logo
+                    display: inline
+                    margin-left: 42%
+                &-header
+                    margin-top: 36px
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 24px
+                    line-height: 36px
+                    text-align: center
+                    color: #999999
+                &-subheader    
+                    margin-top: 25px
+                    width: 255px
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 24px
+                    line-height: 36px
+                    text-align: center
+                    color: #000000     
+                    text-align: center
+                    a
+                        color: #F7654A
+
+// Footer
+
+.footer
+    background: #404149
+    &-inner
+        display: flex
+        align-items: center
+        justify-content: space-between
+        font-family: 'Open Sans'
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 22px
+        color: #FFFFFF
+        padding-top: 20px
+        padding-bottom: 20px
